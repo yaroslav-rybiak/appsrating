@@ -1,3 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    color: #3e3e3e;
+    font-weight: normal;
+    background-color: #fafafa;
+}
+
 /* Increasing default navbar height */
 .navbar-brand,
 .navbar-nav li a {
@@ -28,6 +37,12 @@
     margin: 8px 0 0 8px;
 }
 
+
+/* Custom navbar color */
+.navbar-default {
+    background-color: #fff;
+}
+
 /* Changing default nav li color */
 .nav.navbar-nav li a,
 .nav.navbar-nav li a:hover,
@@ -50,12 +65,24 @@
     border-bottom: 4px #2d517e solid;
 }
 
-.blue {
+.light-blue {
     color: #4c83d5;
 }
 
-.features {
-    text-align: left;
+.blue {
+    font-weight: bold;
+    font-size: 15px;
+    color: #21538d;
+}
+
+.gray {
+    color: #7f7e7e;
+}
+
+.black {
+    font-size: 21px;
+    color: #3e3e3e;
+    font-weight: bold;
 }
 
 .table {
@@ -68,13 +95,56 @@ thead {
     color: #fff;
 }
 
-thead th {
-    text-align: center;
+.table > thead > tr > th {
+    text-align: left;
+    padding-left: 30px;
     font-weight: normal;
 }
 
-td {
-    text-align: center;
+.table > tbody > tr > td {
+    text-align: left;
+    padding-left: 30px;
+    vertical-align: middle;
+}
+
+.ribbon {
+    background-image: url("../img/ribbon.png");
+    position: absolute;
+    z-index: 1;
+    top: 45px;
+    left: 2px;
+    width: 160px;
+    height: 36px;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ee111c;
+}
+
+.price::before {
+    content: "$";
+}
+
+.rating {
+    font-size: 22px;
+}
+
+.btn-danger {
+    background-color: #ed0b20;
+    height: 38px;
+    line-height: 26px;
+    width: 118px;
+    font-size: 20px;
+}
+
+.collapsible-link {
+    font-weight: bold;
+}
+
+.collapse {
+    padding-bottom: 10px;
 }
 
 .disclaimer {
@@ -87,4 +157,9 @@ td {
 
 footer {
     text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    background-color: #fff;
+    border-top: 1px solid #eee;
 }
