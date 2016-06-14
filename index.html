@@ -8,6 +8,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/star-rating.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-sortable.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -43,14 +44,14 @@
     </div>
     <div class="row">
         <div class="col-sm-12 col-md-9">
-            <table class="table" data-toggle="table">
+            <table class="table sortable">
                 <thead>
                 <tr>
-                    <th>Application</th>
-                    <th data-field="price" data-sortable="true">Price</th>
-                    <th>Features</th>
-                    <th data-field="score" data-sortable="true">Score</th>
-                    <th> </th>
+                    <th data-defaultsort='disabled'>Application</th>
+                    <th>Price</th>
+                    <th data-defaultsort='disabled'>Features</th>
+                    <th>Score</th>
+                    <th data-defaultsort='disabled'> </th>
                 </tr>
                 </thead>
                 <tbody>
@@ -193,5 +194,6 @@
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/star-rating.min.js"></script>
+<script src="js/bootstrap-sortable.js"></script>
 </body>
 </html>
