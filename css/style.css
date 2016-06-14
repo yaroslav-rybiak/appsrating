@@ -65,6 +65,7 @@ body {
     border-bottom: 4px #2d517e solid;
 }
 
+/* Custom colors and styles beginning */
 .light-blue {
     color: #4c83d5;
 }
@@ -73,6 +74,10 @@ body {
     font-weight: bold;
     font-size: 15px;
     color: #21538d;
+}
+
+.yellow {
+    color: #ffcb00;
 }
 
 .gray {
@@ -85,6 +90,12 @@ body {
     font-weight: bold;
 }
 
+.disclaimer {
+    font-style: italic;
+}
+/* Custom colors and styles ending */
+
+/* Handlimg table beginning */
 .table {
     border: 1px #cccccc solid;
     box-shadow: 0 0 10px 5px #ddd
@@ -111,7 +122,7 @@ thead {
     background-image: url("../img/ribbon.png");
     position: absolute;
     z-index: 1;
-    top: 45px;
+    top: 40px;
     left: 2px;
     width: 160px;
     height: 36px;
@@ -131,6 +142,11 @@ thead {
     font-size: 22px;
 }
 
+.star-rating {
+    line-height:32px;
+    font-size:1.25em;
+}
+
 .btn-danger {
     background-color: #ed0b20;
     height: 38px;
@@ -138,22 +154,18 @@ thead {
     width: 118px;
     font-size: 20px;
 }
+/* Handling table ending */
 
+/* Collapsible links begining */
 .collapsible-link {
     font-weight: bold;
+    cursor: pointer;
 }
 
 .collapse {
     padding-bottom: 10px;
 }
-
-.disclaimer {
-    font-style: italic;
-}
-
-.collapsible-link {
-    cursor: pointer;
-}
+/* Collapsible links ending */
 
 footer {
     text-align: center;
