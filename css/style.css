@@ -90,6 +90,10 @@ body {
     font-weight: bold;
 }
 
+.review {
+    padding-left: 25px;
+}
+
 .disclaimer {
     font-style: italic;
 }
@@ -120,10 +124,10 @@ thead {
 
 .ribbon {
     background-image: url("../img/ribbon.png");
-    position: absolute;
+    position: relative;
     z-index: 1;
-    top: 40px;
-    left: 2px;
+    top: 0;
+    left: -44px;
     width: 160px;
     height: 36px;
 }
@@ -139,12 +143,9 @@ thead {
 }
 
 .rating {
-    font-size: 22px;
-}
-
-.star-rating {
-    line-height:32px;
-    font-size:1.25em;
+    font-size: 16px;
+    left: -3px;
+    top: -10px;
 }
 
 .btn-danger {
@@ -153,6 +154,7 @@ thead {
     line-height: 26px;
     width: 118px;
     font-size: 20px;
+    margin-bottom: 3px;
 }
 /* Handling table ending */
 

@@ -7,6 +7,7 @@
     <title>Top 10 writing apps</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/star-rating.min.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -26,11 +27,7 @@
 
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#">Top 10</a></li>
-                <li><a href="#">Reviews</a></li>
-                <li><a href="#">Compare</a></li>
-                <li><a href="#">Guides</a></li>
-                <li><a href="#">Solutions</a></li>
-                <li><a href="#">OS</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
             </ul>
         </div>
     </div>
@@ -57,145 +54,87 @@
                 </tr>
                 </thead>
                 <tbody>
-                <tr><td><div class="ribbon"></div><br>First Application
-                    <div class="star-rating">
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                    </div>
+                <tr><td><div class="ribbon"></div>
+                    <label for="first" class="control-label">First Application</label>
+                    <input id="first" name="first" type="number" value="5" class="rating" min=0 max=5 step=1 data-size="xs">
                 </td><td class="price">10</td><td class="features">
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Write articles<br>
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Edit notes<br>
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Create magic<br>
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Save memories
-                </td><td class="rating">9.8</td><td><button href="#" type="button" class="btn btn-danger">Visit site</button></td></tr>
-                <tr><td>Second Application
-                    <div class="star-rating">
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star-o yellow"></span>
-
-                    </div>
+                </td><td class="rating">9.8</td><td><button href="#" type="button" class="btn btn-danger">Visit site</button><br><a class="review" href="#">Read review</a></td></tr>
+                <tr><td>
+                    <label for="second" class="control-label">Second Application</label>
+                    <input id="second" name="first" type="number" value="4" class="rating" min=0 max=5 step=1 data-size="xs">
                 </td><td class="price">15</td><td class="features">
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Write articles<br>
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Edit notes<br>
-                </td><td class="rating">8.9</td><td><button href="#" type="button" class="btn btn-danger">Visit site</button></td></tr>
-                <tr><td>Third Application
-                    <div class="star-rating">
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star-o yellow"></span>
-                        <span class="fa fa-star-o yellow"></span>
-                        <input type="hidden" name="whatever" class="rating-value" value="3">
-                    </div>
+                </td><td class="rating">8.9</td><td><button href="#" type="button" class="btn btn-danger">Visit site</button><br><a class="review" href="#">Read review</a></td></tr>
+                <tr><td>
+                    <label for="third" class="control-label">Third Application</label>
+                    <input id="third" name="first" type="number" value="3" class="rating" min=0 max=5 step=1 data-size="xs">
                 </td><td class="price">14</td><td class="features">
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Create magic<br>
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Edit notes<br>
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Save memories
-                </td><td class="rating">7.1</td><td><button href="#" type="button" class="btn btn-danger">Visit site</button></td></tr>
-                <tr><td>Fourth Application
-                    <div class="star-rating">
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star-o yellow"></span>
-
-                    </div>
+                </td><td class="rating">7.1</td><td><button href="#" type="button" class="btn btn-danger">Visit site</button><br><a class="review" href="#">Read review</a></td></tr>
+                <tr><td>
+                    <label for="fourth" class="control-label">Fourth Application</label>
+                    <input id="fourth" name="first" type="number" value="4" class="rating" min=0 max=5 step=1 data-size="xs">
                 </td><td class="price">20</td><td class="features">
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Write articles<br>
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Create magic<br>
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Save memories
-                </td><td class="rating">9.5</td><td><button href="#" type="button" class="btn btn-danger">Visit site</button></td></tr>
-                <tr><td>Fifth Application
-                    <div class="star-rating">
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star-o yellow"></span>
-                        <span class="fa fa-star-o yellow"></span>
-                        <input type="hidden" name="whatever" class="rating-value" value="2">
-                    </div>
+                </td><td class="rating">9.5</td><td><button href="#" type="button" class="btn btn-danger">Visit site</button><br><a class="review" href="#">Read review</a></td></tr>
+                <tr><td>
+                    <label for="fifth" class="control-label">Fifth Application</label>
+                    <input id="fifth" name="first" type="number" value="4" class="rating" min=0 max=5 step=1 data-size="xs">
                 </td><td class="price">25</td><td class="features">
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Write articles<br>
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Edit notes<br>
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Create magic
-                </td><td class="rating">8.0</td><td><button href="#" type="button" class="btn btn-danger">Visit site</button></td></tr>
-                <tr><td>Sixth Application
-                    <div class="star-rating">
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star-o yellow"></span>
-                        <span class="fa fa-star-o yellow"></span>
-
-                    </div>
+                </td><td class="rating">8.0</td><td><button href="#" type="button" class="btn btn-danger">Visit site</button><br><a class="review" href="#">Read review</a></td></tr>
+                <tr><td>
+                    <label for="sixth" class="control-label">Sixth Application</label>
+                    <input id="sixth" name="first" type="number" value="4" class="rating" min=0 max=5 step=1 data-size="xs">
                 </td><td class="price">12</td><td class="features">
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Create magic<br>
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Write articles<br>
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Save memories
-                </td><td class="rating">9.0</td><td><button href="#" type="button" class="btn btn-danger">Visit site</button></td></tr>
-                <tr><td>Seventh Application
-                    <div class="star-rating">
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star-o yellow"></span>
-                        <input type="hidden" name="whatever" class="rating-value" value="3">
-                    </div>
+                </td><td class="rating">9.0</td><td><button href="#" type="button" class="btn btn-danger">Visit site</button><br><a class="review" href="#">Read review</a></td></tr>
+                <tr><td>
+                    <label for="seventh" class="control-label">Seventh Application</label>
+                    <input id="seventh" name="first" type="number" value="4" class="rating" min=0 max=5 step=1 data-size="xs">
                 </td><td class="price">17</td><td class="features">
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Write articles<br>
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Create magic<br>
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Save memories
-                </td><td class="rating">8.1</td><td><button href="#" type="button" class="btn btn-danger">Visit site</button></td></tr>
-                <tr><td>Eighth Application
-                    <div class="star-rating">
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star-o yellow"></span>
-                        <input type="hidden" name="whatever" class="rating-value" value="2">
-                    </div>
+                </td><td class="rating">8.1</td><td><button href="#" type="button" class="btn btn-danger">Visit site</button><br><a class="review" href="#">Read review</a></td></tr>
+                <tr><td>
+                    <label for="eights" class="control-label">Eights Application</label>
+                    <input id="eights" name="first" type="number" value="4" class="rating" min=0 max=5 step=1 data-size="xs">
                 </td><td class="price">14</td><td class="features">
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Create magic<br>
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Write articles<br>
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Edit notes<br>
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Save memories
-                </td><td class="rating">9.3</td><td><button href="#" type="button" class="btn btn-danger">Visit site</button></td></tr>
-                <tr><td>Ninth Application
-                    <div class="star-rating">
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star-o yellow"></span>
-                        <span class="fa fa-star-o yellow"></span>
-
-                    </div>
+                </td><td class="rating">9.3</td><td><button href="#" type="button" class="btn btn-danger">Visit site</button><br><a class="review" href="#">Read review</a></td></tr>
+                <tr><td><div class="ribbon"></div>
+                    <label for="ninth" class="control-label">Ninth Application</label>
+                    <input id="ninth" name="first" type="number" value="5" class="rating" min=0 max=5 step=1 data-size="xs">
                 </td><td class="price">12</td><td class="features">
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Write articles<br>
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Edit notes<br>
-                    <i class="fa fa-check light-blue" aria-hidden="true"></i> Create magic
-                </td><td class="rating">9.4</td><td><button href="#" type="button" class="btn btn-danger">Visit site</button></td></tr>
-                <tr><td>Tenth Application
-                    <div class="star-rating">
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star yellow"></span>
-                        <span class="fa fa-star-o yellow"></span>
-                        <span class="fa fa-star-o yellow"></span>
-                        <input type="hidden" name="whatever" class="rating-value" value="3">
-                    </div>
+                    <i class="fa fa-check light-blue" aria-hidden="true"></i> Create magic<br>
+                    <i class="fa fa-check light-blue" aria-hidden="true"></i> Save memories
+                </td><td class="rating">9.6</td><td><button href="#" type="button" class="btn btn-danger">Visit site</button><br><a class="review" href="#">Read review</a></td></tr>
+                <tr><td>
+                    <label for="tenth" class="control-label">Tenth Application</label>
+                    <input id="tenth" name="first" type="number" value="3" class="rating" min=0 max=5 step=1 data-size="xs">
                 </td><td class="price">11</td><td class="features">
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Create magic<br>
                     <i class="fa fa-check light-blue" aria-hidden="true"></i> Save memories
-                </td><td class="rating">8.5</td><td><button href="#" type="button" class="btn btn-danger">Visit site</button></td></tr>
+                </td><td class="rating">8.5</td><td><button href="#" type="button" class="btn btn-danger">Visit site</button><br><a class="review" href="#">Read review</a></td></tr>
                 </tbody>
             </table>
             <p class="disclaimer">
@@ -253,6 +192,6 @@
 </footer>
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/star-rating.js"></script>
+<script src="js/star-rating.min.js"></script>
 </body>
 </html>
