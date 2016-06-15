@@ -165,6 +165,10 @@ thead {
     padding: 0 0 0 5px;
 }
 
+.btn {
+    border-radius: 0;
+}
+
 .btn-danger {
     background-color: #ed0b20;
     height: 38px;
