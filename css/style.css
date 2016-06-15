@@ -157,6 +157,14 @@ thead {
     top: -10px;
 }
 
+.rate-it {
+    font-size: 10px;
+    position: relative;
+    top: -10px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 5px;
+}
+
 .btn-danger {
     background-color: #ed0b20;
     height: 38px;
