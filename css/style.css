@@ -4,7 +4,7 @@ body {
     line-height: 16px;
     color: #3e3e3e;
     font-weight: normal;
-    background-color: #fafafa;
+    background-color: #f5f5f5;
 }
 
 /* Increasing default navbar height */
@@ -78,6 +78,14 @@ body {
     color: #ffcb00;
 }
 
+.green {
+    color: #9acc55;
+}
+
+.red {
+    color: #e74c3c;
+}
+
 .gray {
     color: #7f7e7e;
 }
@@ -100,7 +108,9 @@ body {
 /* Handlimg table beginning */
 .table {
     border: 1px #cccccc solid;
-    box-shadow: 0 0 10px 5px #ddd
+    -webkit-box-shadow: 0 0 10px 5px #ddd;
+       -moz-box-shadow: 0 0 10px 5px #ddd;
+            box-shadow: 0 0 10px 5px #ddd;
 }
 
 thead {
@@ -175,4 +185,37 @@ footer {
     padding-bottom: 25px;
     background-color: #fff;
     border-top: 1px solid #eee;
+}
+
+.carousel {
+    margin-top: 16px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.slider-arrow {
+    position: relative;
+    top: 45%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 38px;
+    background: #fff;
+    color: #343434;
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.carousel-control,
+.carousel-control:hover{
+    opacity: 100;
+}
+
+.paragraph {
+    background-color: #fefefe;
+    margin-top: 35px;
+    padding: 35px 25px 25px 25px;
 }
