@@ -234,8 +234,15 @@ footer {
 }
 
 /* Social icons beginning */
+
+.social {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
 .social > ul {
     overflow: auto;
+    padding-left: 0;
 }
 
 .social > ul li {
@@ -245,27 +252,30 @@ footer {
 
 .social > ul li a i {
     color: #fff;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    font-size: 25px;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
     text-align: center;
-    margin-right: 10px;
-    padding-top: 15%;
+    margin-right: 5px;
+    padding-top: 17%;
 }
 
 .fa-facebook {
-    background:#3b5998
+    background: #3b5998;
 }
 
 .fa-linkedin {
-    background:#007bb6
+    background: #007bb6;
 }
 .fa-twitter {
-    background:#00aced
+    background: #00aced;
 }
 .fa-google-plus {
-    background:#dd4b39
+    background: #dd4b39;
+}
+
+.fa-tumblr {
+    background: #32506d;
 }
 
 .social > ul li a i {
