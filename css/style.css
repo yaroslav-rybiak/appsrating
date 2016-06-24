@@ -90,7 +90,7 @@ body {
 
 .blue {
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
     color: #21538d;
 }
 
@@ -189,7 +189,7 @@ thead {
     position: relative;
     top: -10px;
     margin: 0 0 0 0;
-    padding: 0 0 0 5px;
+    padding: 0 0 0 10px;
 }
 
 .btn {
@@ -218,6 +218,8 @@ thead {
 /* Collapsible links ending */
 
 footer {
+    font-size: 12px;
+    color: gray;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 25px;
