@@ -259,7 +259,6 @@ footer {
 /* Social icons beginning */
 
 .social {
-    margin-top: 35px;
     margin-bottom: 35px;
 }
 
@@ -280,6 +279,7 @@ footer {
     font-size: 20px;
     text-align: center;
     margin-right: 5px;
+    margin-bottom: 5px;
     padding-top: 17%;
 }
 
@@ -316,7 +316,7 @@ ul li a i:hover {
 }
 
 /* White borders */
-.FAQ, .share {
+.FAQ, .social {
     background-color: #fff;
     padding: 20px 20px 15px 20px;
 }
