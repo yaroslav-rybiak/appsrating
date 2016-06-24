@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 16px;
     color: #3e3e3e;
     font-weight: normal;
@@ -28,11 +28,20 @@ body {
     padding: 0;
     margin: 0;
 }
-
-/* Larger logo workaround */
+/*
+ Larger logo workaround
 .navbar-brand>img {
     height: 60px;
     width: 216px;
+}
+*/
+
+/* Custom logo text */
+.navbar-brand>h1 {
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 15px;
 }
 
 
@@ -51,7 +60,7 @@ body {
 
 /* Adding underline on hover */
 .nav.navbar-nav li a:hover {
-    border-bottom: 4px #2d517e solid;
+    border-bottom: 4px #000 solid;
 }
 
 /* Changing default nav li.active color */
@@ -60,12 +69,20 @@ body {
 .navbar-default .navbar-nav > .active > a:focus {
     color: #000;
     background: #fff;
-    border-bottom: 4px #2d517e solid;
+    border-bottom: 4px #000 solid;
+}
+
+/* Main page header */
+.main-header {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #000;
 }
 
 /* Custom colors and styles beginning */
-.light-blue {
-    color: #4c83d5;
+.light-gray {
+    color: #798292;
 }
 
 .blue {
@@ -84,6 +101,10 @@ body {
 
 .red {
     color: #e74c3c;
+}
+
+.orange {
+    color: #f55014;
 }
 
 .gray {
@@ -114,7 +135,7 @@ body {
 }
 
 thead {
-    background-color: #256885;
+    background-color: #441074;
     color: #fff;
 }
 
@@ -134,16 +155,19 @@ thead {
     background-image: url("../img/ribbon.png");
     position: relative;
     z-index: 1;
-    top: 0;
-    left: -44px;
-    width: 160px;
-    height: 36px;
+    top: -7px;
+    left: -30px;
+    width: 165px;
+    height: 27px;
+}
+
+.star {
+    font-size: 16px;
 }
 
 .price {
-    font-size: 22px;
-    font-weight: bold;
-    color: #ee111c;
+    font-size: 16px;
+    color: #1a1a1a;
 }
 
 .price::before {
@@ -151,8 +175,9 @@ thead {
 }
 
 .rating {
-    color: #21538d;
-    font-size: 16px;
+    color: #1a1a1a;
+    font-size: 20px;
+    font-weight: bold;
     left: -3px;
     top: -10px;
 }
@@ -169,8 +194,8 @@ thead {
     border-radius: 0;
 }
 
-.btn-danger {
-    background-color: #ed0b20;
+.btn-success {
+    background-color: #2da415;
     height: 38px;
     line-height: 26px;
     width: 118px;
@@ -285,3 +310,12 @@ ul li a i:hover {
     opacity: .7;
 }
 /* Social icons ending */
+
+.how-to {
+    margin-bottom: 20px;
+}
+
+.FAQ, .share {
+    background-color: #fff;
+    padding: 20px 20px 15px 20px;
+}
