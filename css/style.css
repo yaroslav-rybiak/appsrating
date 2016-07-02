@@ -180,8 +180,8 @@ thead {
 .rating {
     font-size: 20px;
     font-weight: bold;
-    left: -3px;
-    top: -10px;
+    left: 90px;
+    top: -50px;
 }
 
 .rate-it {
@@ -319,4 +319,9 @@ ul li a i:hover {
 /* Main page footer fix */
 .how-to {
     margin-bottom: 20px;
+}
+
+.control-label {
+    position: relative;
+    top: -10px;
 }
