@@ -127,6 +127,7 @@ body {
 
 .disclaimer {
     font-style: italic;
+    font-size: 14px;
 }
 /* Custom colors and styles ending */
 
@@ -324,9 +325,14 @@ ul li a i:hover {
 .control-label {
     position: relative;
     top: 10px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 
 .logo {
     position: relative;
     top: 20px;
+    width: 90px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
