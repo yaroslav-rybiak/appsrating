@@ -160,7 +160,7 @@ thead {
     background-image: url("../img/ribbon.png");
     position: relative;
     z-index: 1;
-    top: -7px;
+    top: -8px;
     left: -30px;
     width: 165px;
     height: 27px;
@@ -338,7 +338,20 @@ ul li a i:hover {
     padding: 0 0 0 0;
 }
 
+.media {
+    margin-top: 30px;
+}
+
 .media-left {
     position: relative;
-    top: 20px;
+    top: 30px;
+}
+
+.editor {
+    position: relative;
+    top: -25px;
+}
+
+.paragraph > h1 {
+    margin-top: 0;
 }
