@@ -156,14 +156,24 @@ thead {
     vertical-align: middle;
 }
 
-.ribbon {
-    background-image: url("../img/ribbon.png");
+.ribbon-win {
+    background-image: url("../img/ribbon-win.png");
     position: relative;
     z-index: 1;
     top: -8px;
     left: -30px;
-    width: 165px;
-    height: 27px;
+    width: 236px;
+    height: 28px;
+}
+
+.ribbon-mac {
+    background-image: url("../img/ribbon-mac.png");
+    position: relative;
+    z-index: 1;
+    top: -8px;
+    left: -30px;
+    width: 236px;
+    height: 28px;
 }
 
 .star {
